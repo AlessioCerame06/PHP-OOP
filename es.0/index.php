@@ -17,6 +17,7 @@
             echo "<h1>LISTA STUDENTI</h1>";
             foreach($listaStudenti as $studente) {
                 $studente -> toString();
+                echo "______________________";
             }
         ?>
     </body>
